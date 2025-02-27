@@ -11,7 +11,7 @@ namespace AutomaticSave
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Конфигурира HTTP заявката.
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
