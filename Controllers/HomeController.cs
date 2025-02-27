@@ -30,6 +30,7 @@ namespace AutomaticSave.Controllers
             return View();
 
         }
+        //I don't know
         [HttpPost]
         public IActionResult Privacy()
         {
